@@ -1,0 +1,32 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  width: 100%;
+  background-color: #333333;
+}
+
+.navBarLink a {
+  color: white;
+  display: block;
+}
+
+ul .nav {
+  list-style: none;
+}
+
+.nav li {
+  padding: 1em;
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: #5998ff;
+}
+/* When a link is hovered over, change the color of the text to blue
+ * When the site is on that URL, make that pages link bold (or underlined) */
