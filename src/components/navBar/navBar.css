@@ -6,27 +6,23 @@
   background-color: #333333;
 }
 
-.navBarLink a {
-  color: white;
-  display: block;
-}
-
-ul .nav {
-  list-style: none;
-}
-
-.nav li {
-  padding: 1em;
-  display: inline;
-}
-
-.nav a {
+/* .nav a {
   text-decoration: none;
   color: white;
+} */
+
+.navBar a {
+  display: flex;
+  align-items: center;
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 12px;
 }
 
-.nav a:hover {
-  color: #5998ff;
+.navBarLinkUnselected:hover {
+  color: #6dc0ff;
 }
-/* When a link is hovered over, change the color of the text to blue
+/* When a link is hovered over, change the color of the text (to blue?)
  * When the site is on that URL, make that pages link bold (or underlined) */

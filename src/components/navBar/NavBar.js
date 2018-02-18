@@ -7,12 +7,11 @@ import {
 } from '../../constants'
 import './navBar.css';
 
+// TODO: set Link classNames based on which URL is selected (hold in state?)
 const NavBar = () => (
   <div className='navBar'>
-    <ul className='nav'>
-      <li><Link to={ URL_HOME }>Home</Link></li>
-      <li><Link to={ URL_PROJECTS }>Projects</Link></li>
-    </ul>
+      <Link className='navBarLinkUnselected' to={ URL_HOME }><span>Home</span></Link>
+      <Link className='navBarLinkUnselected' to={ URL_PROJECTS }>Projects</Link>
   </div>
 );
 
