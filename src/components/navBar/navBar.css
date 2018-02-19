@@ -6,27 +6,23 @@
   background-color: #333333;
 }
 
-.navBarLink a {
+.navBar a {
+  display: flex;
+  align-items: center;
+  font-size: 1.4em;
   color: white;
-  display: block;
-}
-
-ul .nav {
-  list-style: none;
-}
-
-.nav li {
-  padding: 1em;
-  display: inline;
-}
-
-.nav a {
   text-decoration: none;
-  color: white;
+  text-align: center;
+  padding: 8px 12px;
 }
 
-.nav a:hover {
-  color: #5998ff;
+.navBarLinkSelected {
+  background-color: #d6d6d6;
+  color: #333333 !important;
+  font-weight: bold;
+  cursor: default;
 }
-/* When a link is hovered over, change the color of the text to blue
- * When the site is on that URL, make that pages link bold (or underlined) */
+
+.navBarLinkUnselected:hover {
+  color: #6dc0ff;
+}
