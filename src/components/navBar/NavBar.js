@@ -13,6 +13,7 @@ const NavBar = ({
   updateSelectedPageUrl
 }) => {
   const setClassName = url => {
+    // these URL's must correspond to the classes in navBar.css
     return selectedPageUrl === url
       ? 'navBarLinkSelected'
       : 'navBarLinkUnselected';
