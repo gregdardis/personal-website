@@ -8,7 +8,6 @@ import {
 } from '../../constants';
 import './navBar.css';
 
-// TODO: set Link classNames based on which URL is selected (hold in state?)
 const NavBar = ({
   selectedPageUrl,
   updateSelectedPageUrl
@@ -33,6 +32,4 @@ NavBar.propTypes = {
   selectedPageUrl: PropTypes.string.isRequired,
   updateSelectedPageUrl: PropTypes.func.isRequired
 };
-// set classNames based on URL in state using method
-// these methods will need to be passed to NavBar through the container component
 export default NavBar;

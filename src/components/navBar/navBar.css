@@ -16,6 +16,13 @@
   padding: 8px 12px;
 }
 
+.navBarLinkSelected {
+  background-color: #d6d6d6;
+  color: #333333 !important;
+  font-weight: bold;
+  cursor: default;
+}
+
 .navBarLinkUnselected:hover {
   color: #6dc0ff;
 }
