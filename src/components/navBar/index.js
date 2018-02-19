@@ -1,18 +1,18 @@
 import { connect } from 'react-redux';
 
-import { updateSelectedURL } from '../../actions';
+import { updateSelectedPageUrl } from '../../actions';
 import NavBar from './NavBar';
 
 const mapDispatchToProps = dispatch => ({
-  updateSelectedURL(selectedURL) {
+  updateSelectedPageUrl(selectedPageUrl) {
     dispatch(
-      updateSelectedURL(selectedURL)
-    )
+      updateSelectedPageUrl(selectedPageUrl)
+    );
   }
 });
 
 const mapStateToProps = state => ({
-  selectedURL: state.selectedURL
+  selectedPageUrl: state.selectedPageUrl
 });
 
 export default connect(

@@ -1,6 +1,6 @@
-export const UPDATE_SELECTED_URL = 'UPDATE_SELECTED_URL';
+export const UPDATE_SELECTED_PAGE_URL = 'UPDATE_SELECTED_PAGE_URL';
 
-export const updateSelectedURL = selectedURL => ({
-  type: UPDATE_SELECTED_URL,
-  selectedURL
+export const updateSelectedPageUrl = selectedPageUrl => ({
+  type: UPDATE_SELECTED_PAGE_URL,
+  selectedPageUrl
 });

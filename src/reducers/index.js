@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
 
-import { reducer as selectedPageURL } from './selectedPageURL';
+import { reducer as selectedPageUrl } from './selectedPageUrl';
 
 const reducer = combineReducers({
-  selectedPageURL
+  selectedPageUrl
 });
 export default reducer;
