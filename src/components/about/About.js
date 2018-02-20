@@ -14,7 +14,7 @@ const About = () => (
     <p>
       I began learning about software development in April of 2017,
       beginning with Stanford's CS106A course (all materials are online), taught
-      in Java. From here I co-created an Android fitness app called Lifter Log,
+      in Java. From there I co-created an Android fitness app called Lifter Log,
       then started taking a Coursera course to learn algorithms and data
       structures. More recently I co-created a web app where the user can
       search for stocks in Yahoo Finance's database, which was great practice

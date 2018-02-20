@@ -1,0 +1,13 @@
+.nameBanner {
+  display: flex;
+  margin-bottom: 50px;
+  background-color: white;
+  padding-left: 300px;
+}
+
+.nameBanner img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 20px 0px;
+}
