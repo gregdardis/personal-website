@@ -2,10 +2,10 @@
   padding: 20px;
 }
 
-.technologies h2 {
+.technologies h2, h3 {
   color: #333333;
 }
 
-.technologies h3 {
+.technologies h4 {
   font-weight: normal;
 }
