@@ -3,8 +3,8 @@ import React from 'react';
 import './projects.css';
 
 const Projects = () => (
-  <div>
-    Projects page
+  <div className='projects'>
+    <h1>Projects page</h1>
   </div>
 );
 

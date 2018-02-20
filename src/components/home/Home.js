@@ -3,8 +3,8 @@ import React from 'react';
 import './home.css';
 
 const Home = () => (
-  <div>
-    Home Page
+  <div className='home'>
+    <h1>Home Page</h1>
   </div>
 );
 
