@@ -1,13 +1,15 @@
 import React from 'react';
 
 import './home.css';
-import About from '../about';
 import NameBanner from '../nameBanner';
+import LeftColumn from '../leftColumn';
+import RightColumn from '../rightColumn';
 
 const Home = () => (
   <div className='home'>
     <NameBanner />
-    <About />
+    <LeftColumn />
+    <RightColumn />
   </div>
 );
 

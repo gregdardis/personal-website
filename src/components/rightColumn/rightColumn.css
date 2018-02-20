@@ -1,0 +1,8 @@
+.rightColumn {
+  display: flex;
+  flex-direction: vertical;
+  position: relative;
+  left: 100px;
+  width: 300px;
+  background-color: white;
+}

@@ -6,8 +6,8 @@ const About = () => (
   <div className='about'>
     <h2>About Me</h2>
     <p>
-      Currently a student at the University of Alberta, graduating May 2018
-      with a BSc in Mathematics, minor in chemistry.
+      I am currently a student at the University of Alberta, graduating May 2018
+      with a BSc in Mathematics, minor in Chemistry.
       <b> I am looking for an entry-level software engineering position in
       Vancouver, BC starting May 2018 or after.</b>
     </p>
