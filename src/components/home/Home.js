@@ -1,10 +1,14 @@
 import React from 'react';
 
 import './home.css';
+import About from '../about';
+import hiking from '../../images/hiking.jpg';
 
 const Home = () => (
   <div className='home'>
-    <h1>Home Page</h1>
+    <img src={ hiking } alt='Hiking in the Rocky Mountains'
+      title='Hiking in the Rocky Mountains' />
+    <About />
   </div>
 );
 
