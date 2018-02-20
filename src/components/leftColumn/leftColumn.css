@@ -1,6 +1,7 @@
 .leftColumn {
   display: flex;
   flex-direction: vertical;
+  float: left;
   margin-left: 300px;
   width: 700px;
 }
