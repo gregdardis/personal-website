@@ -8,4 +8,4 @@ export const reducer = (state = URL_HOME, action) => {
   default:
     return state;
   }
-}
+};
