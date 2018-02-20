@@ -1,10 +1,11 @@
 import React from 'react';
 
 import './home.css';
+import About from '../about';
 
 const Home = () => (
   <div className='home'>
-    <h1>Home Page</h1>
+    <About />
   </div>
 );
 
