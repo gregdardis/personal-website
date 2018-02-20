@@ -1,0 +1,10 @@
+.leftColumn {
+  display: flex;
+  flex-direction: vertical;
+  margin-left: 300px;
+  width: 700px;
+}
+
+.leftColumn div {
+  background-color: white;
+}
