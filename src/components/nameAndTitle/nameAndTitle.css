@@ -1,0 +1,13 @@
+.nameAndTitle {
+  margin: 50px 50px;
+  color: #333333;
+}
+
+.nameAndTitle h1 {
+  color: #333333;
+}
+
+.nameAndTitle h2 {
+  color: #333333;
+  font-weight: normal;
+}
