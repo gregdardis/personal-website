@@ -9,7 +9,8 @@ const Project = ({
 }) => (
   <div className='project'>
     <ProjectInfo projectData={ projectData } />
-    {/* <img src='../../images/lifter log feature graphic.jpg' /> */}
+    <img src={ projectData.image } alt={ projectData.name + ' image' }
+      title={ projectData.name + ' image' }/>
   </div>
 );
 Project.propTypes = {
