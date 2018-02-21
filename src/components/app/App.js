@@ -10,7 +10,7 @@ import {
   URL_HOME_PAGE,
   URL_PROJECTS_PAGE
 } from '../../constants';
-import Home from '../home';
+import HomePage from '../homePage';
 import ProjectsPage from '../projectsPage';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
     <Router>
       <div className="App">
         <NavBar />
-        <Route exact path={ URL_HOME_PAGE } component={ Home }/>
+        <Route exact path={ URL_HOME_PAGE } component={ HomePage }/>
         <Route path={ URL_PROJECTS_PAGE } component={ ProjectsPage }/>
       </div>
     </Router>
