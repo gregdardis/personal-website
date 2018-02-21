@@ -3,8 +3,6 @@ import lifterLogImage from
 import stockMarketSearchImage from
   '../../images/stock market search example.png';
 
-// imageUrl must be relative to project component folder.
-// If file structure changes, so must these imageUrl's.
 // Each object needs either a googlePlayLink OR gitHubLink.
 // If this needs to change, logic in ProjectInfo.js must change.
 const projectsData = [
