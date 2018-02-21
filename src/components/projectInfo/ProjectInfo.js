@@ -7,7 +7,13 @@ const ProjectInfo = ({
   projectData
 }) => (
   <div className='projectInfo'>
-    Project Info
+    <h2>{ projectData.name }</h2>
+    <p>{ projectData.description }</p>
+    { projectData.googlePlayLink
+      ? <a href={ projectData.googlePlayLink }
+        target='_blank'>Google Play Store</a>
+      : <a href={ projectData.gitHubLink }
+        target='_blank'>GitHub</a> }
   </div>
 );
 ProjectInfo.propTypes = {

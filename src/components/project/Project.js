@@ -8,7 +8,8 @@ const Project = ({
   projectData
 }) => (
   <div className='project'>
-    <ProjectInfo />
+    <ProjectInfo projectData={ projectData } />
+    {/* <img src='../../images/lifter log feature graphic.jpg' /> */}
   </div>
 );
 Project.propTypes = {

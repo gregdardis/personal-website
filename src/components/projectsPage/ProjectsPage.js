@@ -7,7 +7,12 @@ import './projectsPage.css';
 const ProjectsPage = () => (
   <div className='projectsPage'>
     <h1>Projects</h1>
-    <Project />
+    { projectsData.map(projectData =>
+      <Project
+        key={ projectData.name }
+        projectData={ projectData }
+      />
+    ) }
   </div>
 );
 

@@ -11,7 +11,7 @@ const Contact = () => (
       <li>
         <a href='https://github.com/gregdardis'
           target='_blank'>
-        Github
+        GitHub
         </a>
       </li>
       <li>
