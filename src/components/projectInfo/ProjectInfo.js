@@ -14,6 +14,7 @@ const ProjectInfo = ({
         target='_blank'>Google Play Store</a>
       : <a href={ projectData.gitHubLink }
         target='_blank'>GitHub</a> }
+    <p>Technologies: { projectData.technologiesUsed }</p>
   </div>
 );
 ProjectInfo.propTypes = {

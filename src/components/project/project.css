@@ -6,12 +6,13 @@
   margin-left: 410px;
   margin-bottom: -1px;
   border: 1px solid #333333;
-  padding: 25px 60px;
+  padding: 25px 30px 25px 30px;
   background-color: white;
 }
 
 .project img {
   width: 512px;
   height: 250px;
+  padding-left: 30px;
 }
 
