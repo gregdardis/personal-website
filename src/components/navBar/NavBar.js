@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import {
-  URL_HOME,
-  URL_PROJECTS
+  URL_HOME_PAGE,
+  URL_PROJECTS_PAGE
 } from '../../constants';
 import './navBar.css';
 
@@ -20,12 +20,12 @@ const NavBar = ({
   };
   return (
     <div className='navBar'>
-      <Link onClick={ () => updateSelectedPageUrl(URL_HOME) }
-        className={ setClassName(URL_HOME) }
-        to={ URL_HOME }>Home</Link>
-      <Link onClick={ () => updateSelectedPageUrl(URL_PROJECTS) }
-        className={ setClassName(URL_PROJECTS) }
-        to={ URL_PROJECTS }>Projects</Link>
+      <Link onClick={ () => updateSelectedPageUrl(URL_HOME_PAGE) }
+        className={ setClassName(URL_HOME_PAGE) }
+        to={ URL_HOME_PAGE }>Home</Link>
+      <Link onClick={ () => updateSelectedPageUrl(URL_PROJECTS_PAGE) }
+        className={ setClassName(URL_PROJECTS_PAGE) }
+        to={ URL_PROJECTS_PAGE }>Projects</Link>
     </div>
   );
 };
