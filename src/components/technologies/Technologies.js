@@ -6,19 +6,25 @@ const Technologies = () => (
   <div className='technologies'>
     <h2>Technologies</h2>
     <h3>Java</h3>
-    <h4>- Android</h4>
-    <h4>- JUnit</h4>
-    <h4>- Eclipse</h4>
+    <ul>
+      <li>Android</li>
+      <li>JUnit</li>
+      <li>Eclipse/Android Studio</li>
+    </ul>
     <h3>JavaScript (ES6)</h3>
-    <h4>- Node/Express</h4>
-    <h4>- React/Redux</h4>
-    <h4>- Webpack/Babel</h4>
-    <h4>- HTML5 and CSS3</h4>
+    <ul>
+      <li>Node/Express</li>
+      <li>React/Redux</li>
+      <li>Webpack/Babel</li>
+      <li>Mocha/Chai</li>
+      <li>HTML5/CSS3</li>
+    </ul>
     <h3>General</h3>
-    <h4>- Git</h4>
-    <h4>- VS Code</h4>
-    <h4>- Atom</h4>
-    <h4>- SQLite</h4>
+    <ul>
+      <li>Git</li>
+      <li>VS Code/Atom</li>
+      <li>SQLite</li>
+    </ul>
   </div>
 );
 

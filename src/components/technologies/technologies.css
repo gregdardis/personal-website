@@ -6,6 +6,6 @@
   color: #333333;
 }
 
-.technologies h4 {
-  font-weight: normal;
+.technologies li {
+  margin-bottom: 4px;
 }
