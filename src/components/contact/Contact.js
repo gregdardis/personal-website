@@ -8,14 +8,18 @@ const Contact = () => (
     <ul>
       <li>dardis.greg@gmail.com</li>
       <li>Resume TODO LINK</li>
-      <li><a href='https://github.com/gregdardis'
-        target='_blank'>
+      <li>
+        <a href='https://github.com/gregdardis'
+          target='_blank'>
         Github
-      </a></li>
-      <li><a href='https://www.linkedin.com/in/greg-dardis-73495514b/'
-        target='_blank'>
+        </a>
+      </li>
+      <li>
+        <a href='https://www.linkedin.com/in/greg-dardis-73495514b/' 
+          target='_blank'>
         LinkedIn
-      </a></li>
+        </a>
+      </li>
     </ul>
   </div>
 );
