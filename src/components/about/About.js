@@ -17,7 +17,7 @@ const About = () => (
       in Java. From there I co-created an Android fitness app called Lifter Log,
       then started taking a Coursera course to learn algorithms and data
       structures. More recently I co-created a web app where the user can
-      search for stocks in Yahoo Finance's database, which was great practice
+      search for stocks in Yahoo Finance's database, which was great experience
       using Node, Express, React/Redux, and other current web technologies.
     </p>
   </div>

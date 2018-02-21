@@ -7,8 +7,15 @@ const Contact = () => (
     <h2>Contact</h2>
     <ul>
       <li>dardis.greg@gmail.com</li>
-      <li><a href='https://www.linkedin.com/in/greg-dardis-73495514b/'>LinkedIn</a></li>
       <li>Resume TODO LINK</li>
+      <li><a href='https://github.com/gregdardis'
+        target='_blank'>
+        Github
+      </a></li>
+      <li><a href='https://www.linkedin.com/in/greg-dardis-73495514b/'
+        target='_blank'>
+        LinkedIn
+      </a></li>
     </ul>
   </div>
 );
