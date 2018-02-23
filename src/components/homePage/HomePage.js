@@ -1,16 +1,16 @@
 import React from 'react';
 
-import './home.css';
+import './homePage.css';
 import NameBanner from '../nameBanner';
 import LeftColumn from '../leftColumn';
 import RightColumn from '../rightColumn';
 
-const Home = () => (
-  <div className='home'>
+const HomePage = () => (
+  <div className='homePage'>
     <NameBanner />
     <LeftColumn />
     <RightColumn />
   </div>
 );
 
-export default Home;
+export default HomePage;
