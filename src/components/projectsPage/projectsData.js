@@ -2,6 +2,10 @@ import lifterLogImage from
   '../../images/lifter log feature graphic.jpg';
 import stockMarketSearchImage from
   '../../images/stock market search example.png';
+import facePamphletImage from
+  '../../images/facepamphlet.png';
+import personalWebsiteImage from
+  '../../images/personal website.png';
 
 // Each object needs either a googlePlayLink OR gitHubLink.
 // If this needs to change, logic in ProjectInfo.js must change.
@@ -22,9 +26,32 @@ const projectsData = [
     'search for stocks (by symbol) in the yahoo finance stock database, and ' +
     'view financial information and metrics related to these stocks. ',
     technologiesUsed: 'React/Redux, Webpack/Babel, Node/Express, ' +
-    'Mocha/Chai, HTML5/CSS3',
+    'Mocha/Chai, HTML5/CSS3, VS Code',
     gitHubLink: 'https://github.com/gregdardis/stock-market-info',
     image: stockMarketSearchImage
+  },
+  {
+    name: 'FacePamphlet',
+    description: 'FacePamphlet is a mini social media app that runs locally ' +
+    'on your computer. It has features such as creating a profile, looking ' +
+    'up a profile, adding a friend, changing your status or picture, and ' +
+    'deleting profiles. It utilizes SQLite to save information between uses. ' +
+    'Note: this project is an extension of assignment 7, FacePamphlet, from ' +
+    'Stanford\'s CS106A class.',
+    technologiesUsed: 'Java, Eclipse, SQLite',
+    gitHubLink: 'https://github.com/gregdardis/FacePamphlet-CS106A',
+    image: facePamphletImage
+  },
+  {
+    name: 'Personal Website',
+    description: 'This site, which is used to show both my portfolio and ' +
+    'who I am. Bootstrapped using create-react-app. The ' +
+    'technologies used are overkill, I just used what I am comfortable ' +
+    'with for this simple project.',
+    technologiesUsed: 'React/Redux, Webpack/Babel, HTML5/CSS3, ' +
+    'VS Code',
+    gitHubLink: 'https://github.com/gregdardis/personal-website',
+    image: personalWebsiteImage
   }
 ];
 
