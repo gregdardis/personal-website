@@ -17,7 +17,9 @@ const ProjectInfo = ({
     <p>Technologies: { projectData.technologiesUsed }</p>
   </div>
 );
+
 ProjectInfo.propTypes = {
   projectData: PropTypes.object.isRequired
 };
+
 export default ProjectInfo;

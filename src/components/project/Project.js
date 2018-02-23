@@ -13,7 +13,9 @@ const Project = ({
       title={ projectData.name + ' image' }/>
   </div>
 );
+
 Project.propTypes = {
   projectData: PropTypes.object.isRequired
 };
+
 export default Project;
