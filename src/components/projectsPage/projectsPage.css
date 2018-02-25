@@ -1,10 +1,10 @@
 .projectsPage {
   background-color: #d6d6d6;
   height: 1400px;
-  margin-top: -21px;
 }
 
 .projectsPage h1 {
   margin-left: 410px;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
