@@ -4,7 +4,7 @@ Personal website is a simple web app which is used to show both my portfolio and
 
 The front end utilizes [React](https://github.com/facebook/react), [Redux](https://github.com/reactjs/redux), [Webpack](https://github.com/webpack/webpack), and [Babel](https://github.com/babel/babel).
 
-Bootstrapped using create-react-app. 
+Bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
 
 ### How to run
 1. Clone or download this repository. Navigate to the project root.
