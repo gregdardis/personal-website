@@ -10,7 +10,7 @@
     "react",
     "mocha"
   ],
-
+  
   "parserOptions": {
       "sourceType": "module",
       "ecmaFeatures": {
