@@ -6,7 +6,7 @@
   background-color: #333333;
 }
 
-.navBar a {
+.navBarLink {
   display: flex;
   align-items: center;
   font-size: 1.4em;
@@ -16,13 +16,13 @@
   padding: 8px 12px;
 }
 
-.navBarLinkSelected {
+.selected {
   background-color: #ededed;
   color: #333333 !important;
   font-weight: bold;
   cursor: default;
 }
 
-.navBarLinkUnselected:hover {
+.navBarLink:hover {
   color: #6dc0ff;
 }
