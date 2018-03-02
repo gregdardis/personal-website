@@ -9,3 +9,9 @@
 .technologies li {
   margin-bottom: 4px;
 }
+
+/* @media (max-width: 700px) {
+  .technologies {
+    margin-bottom: 50px;
+  }
+} */
