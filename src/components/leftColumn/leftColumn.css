@@ -9,3 +9,17 @@
 .leftColumn div {
   background-color: #f9f9f9;
 }
+
+@media (max-width: 1500px) {
+  .leftColumn {
+    margin-left: 10%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .leftColumn {
+    margin-left: 6%;
+    width: 88%
+  }
+}

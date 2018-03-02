@@ -1,5 +1,6 @@
 .contact {
   padding-bottom: 20px;
+  margin-bottom: 6%;
 }
 
 .contact h2 {
@@ -9,4 +10,10 @@
 .contact li {
   list-style-type: none;
   margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+  .contact {
+    margin-bottom: 9%;
+  }
 }
