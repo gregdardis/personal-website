@@ -12,17 +12,18 @@ import personalWebsiteImage from
 const projectsData = [
   {
     name: 'Lifter Log',
-    description: 'Lifter Log is an Android app for fitness that allows the ' +
-    'user to record their workouts and meals, and track their progress in ' +
+    description: 'Lifter Log is an Android app for fitness that allows ' +
+    'you to record your workouts and meals, and track your progress in ' +
     'various ways (progress photos, graphing body weight, ' +
-    'graphing exercise weights, etc) over time.',
-    technologiesUsed: 'Java, JUnit, Android Studio',
-    googlePlayLink: 'This is the google play link. TODO',
+    'graphing exercise weights, etc.) over time.',
+    technologiesUsed: 'Java, JUnit, Android Studio, SQLite',
+    googlePlayLink: 'https://play.google.com/store/apps/details?' +
+      'id=com.hgdev.fitnessapps.lifterlog&hl=en',
     image: lifterLogImage
   },
   {
     name: 'Stock Market Search',
-    description: 'Stock Market Search is a web app that allows the user to ' +
+    description: 'Stock Market Search is a web app that allows you to ' +
     'search for stocks (by symbol) in the yahoo finance stock database, and ' +
     'view financial information and metrics related to these stocks. ',
     technologiesUsed: 'React/Redux, Webpack/Babel, Node/Express, ' +
@@ -45,9 +46,7 @@ const projectsData = [
   {
     name: 'Personal Website',
     description: 'This site, which is used to show both my portfolio and ' +
-    'who I am. Bootstrapped using create-react-app. The ' +
-    'technologies used are overkill, I just used what I am comfortable ' +
-    'with for this simple project.',
+    'who I am. Bootstrapped using create-react-app. ',
     technologiesUsed: 'React/Redux, Webpack/Babel, HTML5/CSS3, ' +
     'VS Code',
     gitHubLink: 'https://github.com/gregdardis/personal-website',
