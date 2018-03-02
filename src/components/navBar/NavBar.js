@@ -13,14 +13,8 @@ class NavBar extends Component {
     this.state = {
       selectedPageUrl: URL_HOME_PAGE
     };
-  }
-
-  updateSelectedPageUrl(url) {
-    this.setState(() => {
-      return {
-        selectedPageUrl: url
-      };
-    });
+    this.setClassName.bind(this);
+    this.updateSelectedPageUrl.bind(this);
   }
 
   setClassName(url) {
@@ -28,6 +22,12 @@ class NavBar extends Component {
     return this.state.selectedPageUrl === url
       ? 'navBarLinkSelected'
       : 'navBarLinkUnselected';
+  }
+
+  updateSelectedPageUrl(url) {
+    this.setState(() => ({
+      selectedPageUrl: url
+    }));
   }
 
   render() {
