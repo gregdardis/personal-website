@@ -47,7 +47,7 @@ const projectsData = [
     name: 'Personal Website',
     description: 'This site, which is used to show both my portfolio and ' +
     'who I am. Bootstrapped using create-react-app. ',
-    technologiesUsed: 'React/Redux, Webpack/Babel, HTML5/CSS3, ' +
+    technologiesUsed: 'React, Webpack/Babel, HTML5/CSS3, ' +
     'VS Code',
     gitHubLink: 'https://github.com/gregdardis/personal-website',
     image: personalWebsiteImage
