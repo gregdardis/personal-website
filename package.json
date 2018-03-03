@@ -1,6 +1,5 @@
 {
   "name": "personal-website",
-  "homepage": "http://gregdardis.github.io/personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf docs && mv build docs",
+    "build": "rm -rf static && react-scripts build && mv build/* . && rm -r build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
