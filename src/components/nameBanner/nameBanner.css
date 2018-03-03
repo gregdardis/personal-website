@@ -9,7 +9,7 @@
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  padding: 1% 0px;
+  padding: 5px 0px !important;
 }
 
 @media (max-width: 700px) {
@@ -19,7 +19,7 @@
   }
 
   .nameBanner img {
-    padding-top: 4%;
+    padding-top: 12px !important;
   }
 }
 
@@ -27,6 +27,5 @@
   .nameBanner img {
     width: 58vw;
     height: 58vw;
-    padding-top: 6%;
   }
 }

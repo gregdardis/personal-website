@@ -5,17 +5,19 @@
 
 .nameAndTitle h1 {
   color: #333333;
-  font-size: calc(100% + 1.0vw);
+  font-size: calc(1.0em + 0.8vw);
 }
 
 .nameAndTitle h2 {
   color: #333333;
   font-weight: normal;
-  font-size: calc(80% + 0.8vw);
+  font-size: calc(0.75em + 0.8vw);
 }
 
 @media only screen and (max-width: 700px) {
   .nameAndTitle {
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 13%;
+    margin-top: 5%;
   }
 }
