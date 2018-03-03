@@ -19,12 +19,14 @@
   }
 
   .nameBanner img {
-    padding-top: 2%;
+    padding-top: 4%;
   }
 }
 
-@media (max-width: 400px) {
-  .nameBanner {
-    padding-left: 18.75%;
+@media (max-width: 431px) {
+  .nameBanner img {
+    width: 58vw;
+    height: 58vw;
+    padding-top: 6%;
   }
 }
