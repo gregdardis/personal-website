@@ -1,8 +1,9 @@
 # Personal Website
 ### Description
 Personal website is a simple web app which is used to show both my portfolio and who I am.
+[Here](gregdardis.github.io) is a link to the website, hosted with GitHub Pages.
 
-The front end utilizes [React](https://github.com/facebook/react), [Redux](https://github.com/reactjs/redux), [Webpack](https://github.com/webpack/webpack), and [Babel](https://github.com/babel/babel).
+The front end utilizes [React](https://github.com/facebook/react), [Webpack](https://github.com/webpack/webpack), and [Babel](https://github.com/babel/babel).
 
 Bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
 
