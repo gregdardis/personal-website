@@ -16,6 +16,8 @@
 
 @media only screen and (max-width: 700px) {
   .nameAndTitle {
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 13%;
+    margin-top: 5%;
   }
 }
