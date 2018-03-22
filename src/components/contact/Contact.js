@@ -1,5 +1,6 @@
 import React from 'react';
 
+import resumePDF from '../../assets/Dardis_Greg_Resume_2018.pdf';
 import './contact.css';
 
 const Contact = () => (
@@ -7,7 +8,11 @@ const Contact = () => (
     <h2>Contact</h2>
     <ul>
       <li>dardis.greg@gmail.com</li>
-      <li>Resume</li>
+      <li>
+        <a href={resumePDF} download>
+          Resume
+        </a>
+      </li>
       <li>
         <a href='https://github.com/gregdardis'
           target='_blank' rel="noopener noreferrer">
@@ -15,7 +20,7 @@ const Contact = () => (
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/greg-dardis-73495514b/' 
+        <a href='https://www.linkedin.com/in/greg-dardis-73495514b/'
           target='_blank' rel="noopener noreferrer">
         LinkedIn
         </a>
