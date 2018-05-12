@@ -7,7 +7,7 @@ import facePamphletImage from
 import personalWebsiteImage from
   '../../images/personal website.png';
 import rentalPropertyCalculatorImage from
-  '../../images/rental property calculator.png'
+  '../../images/rental property calculator.png';
 
 // Each object needs either a googlePlayLink OR gitHubLink.
 // If this needs to change, logic in ProjectInfo.js must change.
@@ -25,12 +25,12 @@ const projectsData = [
   },
   {
     name: 'Rental Property Calculator',
-    description: 'Rental Property Calculator is a web/electron app for ' +
+    description: 'Rental Property Calculator is an electron app for ' +
     'real estate investors to use to analyze rental properties. It shows ' +
     'you your property\'s value, cash flow, equity buildup, return on ' +
     'investment, return on equity, and cash on cash return for years ' +
     'during your mortgage and after the property is paid off.',
-    technologiesUsed: 'React, Webpack/Babel, Mocha/Chai, HTML5/CSS3, VS Code',
+    technologiesUsed: 'Electron, React, Webpack/Babel, Mocha/Chai, HTML5/CSS3, VS Code',
     gitHubLink: 'https://github.com/gregdardis/rental-property-calculator',
     image: rentalPropertyCalculatorImage
   },
