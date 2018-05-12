@@ -18,6 +18,7 @@ const Technologies = () => (
       <li>Webpack/Babel</li>
       <li>Mocha/Chai</li>
       <li>HTML5/CSS3</li>
+      <li>Electron</li>
     </ul>
     <h3>General</h3>
     <ul>
