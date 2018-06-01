@@ -14,6 +14,7 @@ const Technologies = () => (
     <h3>JavaScript (ES6)</h3>
     <ul>
       <li>Node/Express</li>
+      <li>Mongoose/MongoDB</li>
       <li>React/Redux</li>
       <li>Webpack/Babel</li>
       <li>Mocha/Chai</li>

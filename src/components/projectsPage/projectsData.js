@@ -25,12 +25,13 @@ const projectsData = [
   },
   {
     name: 'Rental Property Calculator',
-    description: 'Rental Property Calculator is an electron app for ' +
+    description: 'Rental Property Calculator is a web app for ' +
     'real estate investors to use to analyze rental properties. It shows ' +
     'you your property\'s value, cash flow, equity buildup, return on ' +
     'investment, return on equity, and cash on cash return for years ' +
-    'during your mortgage and after the property is paid off.',
-    technologiesUsed: 'Electron, React, Webpack/Babel, Mocha/Chai, HTML5/CSS3, VS Code',
+    'during your mortgage and after the property is paid off. It allows users ' +
+    'to register and login to save their analyses for later.',
+    technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, HTML5/CSS3, Node/Express, MongoDB/Mongoose, Passport, JWT, VS Code',
     gitHubLink: 'https://github.com/gregdardis/rental-property-calculator',
     image: rentalPropertyCalculatorImage
   },
