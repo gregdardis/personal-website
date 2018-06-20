@@ -16,9 +16,9 @@ const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <Route exact path={ URL_HOME_PAGE }
+      <Route exact path={ process.env.PUBLIC_URL + URL_HOME_PAGE }
         component={ HomePage }/>
-      <Route exact path={ URL_PROJECTS_PAGE }
+      <Route exact path={ process.env.PUBLIC_URL + URL_PROJECTS_PAGE }
         component={ ProjectsPage }/>
     </div>
   );
