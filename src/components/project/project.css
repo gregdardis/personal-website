@@ -1,5 +1,12 @@
 .project {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
   width: 58%;
   margin-left: 21%;
@@ -27,7 +34,6 @@
   .project {
     display: flex;
     flex-direction: column;
-    justify-content: initial;
     padding: 12px 15px 12px 25px;
   }
 
