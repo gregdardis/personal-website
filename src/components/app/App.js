@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  BrowserRouter,
   Route
 } from 'react-router-dom';
 
@@ -15,13 +14,11 @@ import ProjectsPage from '../projectsPage';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <NavBar />
-        <Route exact path={ URL_HOME_PAGE } component={ HomePage }/>
-        <Route path={ URL_PROJECTS_PAGE } component={ ProjectsPage }/>
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <NavBar />
+      <Route exact path={ URL_HOME_PAGE } component={ HomePage }/>
+      <Route exact path={ URL_PROJECTS_PAGE } component={ ProjectsPage }/>
+    </div>
   );
 };
 
