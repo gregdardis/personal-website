@@ -28,6 +28,10 @@
     margin-right: 7%;
     width: auto;
   }
+
+  .project img {
+    display: none;
+  }
 }
 
 @media (max-width: 1355px) {
