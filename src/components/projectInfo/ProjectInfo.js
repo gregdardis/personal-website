@@ -15,6 +15,10 @@ const ProjectInfo = ({
       : <a href={ projectData.gitHubLink }
         target='_blank'>GitHub</a> }
     <p>Technologies: { projectData.technologiesUsed }</p>
+    { projectData.deployedSiteLink
+      ? <a href={ projectData.deployedSiteLink }
+        target='_blank'>Website</a>
+      : null }
   </div>
 );
 
