@@ -8,6 +8,8 @@ import personalWebsiteImage from
   '../../images/personal website.png';
 import rentalPropertyCalculatorImage from
   '../../images/rental property calculator.png';
+import fitnessAPIImage from
+  '../../images/fitnessAPI.png';
 
 // Each object needs either a googlePlayLink OR gitHubLink.
 // If this needs to change, logic in ProjectInfo.js must change.
@@ -31,10 +33,23 @@ const projectsData = [
     'investment, return on equity, and cash on cash return for years ' +
     'during your mortgage and after the property is paid off. It allows ' +
     'users to register and login to save their analyses for later.',
-    technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, HTML5/CSS3, Node/Express, MongoDB/Mongoose, Passport, JWT, VS Code',
+    technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, HTML5/CSS3, ' +
+    'Node/Express, MongoDB/Mongoose, Passport, JWT, VS Code',
     gitHubLink: 'https://github.com/gregdardis/rental-property-calculator',
     deployedSiteLink: 'https://secure-plateau-58035.herokuapp.com/',
     image: rentalPropertyCalculatorImage
+  },
+  {
+    name: 'Fitness API',
+    description: 'Fitness API is a web API for accessing data about workout ' +
+    'exercises. Exercises include the exercise name, it\'s main muscle ' +
+    'group, other muscle groups it works out, and the equipment required ' +
+    'to perform the exercise. The API will return a JSON response ' +
+    'containing an array of exercises meeting the specified criteria.',
+    technologiesUsed: 'ASP.NET Core, Entity Framework Core, SQL Server, ' +
+    'Visual Studio 2017',
+    gitHubLink: 'https://github.com/gregdardis/fitness-api',
+    image: fitnessAPIImage
   },
   {
     name: 'Stock Market Search',
