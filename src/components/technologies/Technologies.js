@@ -25,6 +25,7 @@ const Technologies = () => (
     <ul>
       <li>ASP.NET Core</li>
       <li>Entity Framework Core</li>
+      <li>Visual Studio 2017</li>
     </ul>
     <h3>General</h3>
     <ul>
@@ -33,7 +34,6 @@ const Technologies = () => (
       <li>SQLite</li>
       <li>SQL Server</li>
       <li>Heroku</li>
-      <li>Visual Studio 2017</li>
     </ul>
   </div>
 );
