@@ -21,11 +21,19 @@ const Technologies = () => (
       <li>HTML5/CSS3</li>
       <li>Electron</li>
     </ul>
+    <h3>C#</h3>
+    <ul>
+      <li>ASP.NET Core</li>
+      <li>Entity Framework Core</li>
+    </ul>
     <h3>General</h3>
     <ul>
       <li>Git</li>
       <li>VS Code/Atom</li>
       <li>SQLite</li>
+      <li>SQL Server</li>
+      <li>Heroku</li>
+      <li>Visual Studio 2017</li>
     </ul>
   </div>
 );
