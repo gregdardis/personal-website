@@ -24,7 +24,7 @@ const About = () => (
       which was great experience using Express, React/Redux,
       and other current web technologies. I have since gone back
       and added continuous integration using Travis CI. I also added
-      jest coverage reports and got code coverage to 90%.
+      Jest coverage reports and got code coverage to 90%.
     </p>
     <p>
       Once I had the basics down, I created a calculator for investors
