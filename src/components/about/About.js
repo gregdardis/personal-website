@@ -22,17 +22,25 @@ const About = () => (
       To begin my web development journey I co-created a web app
       where the user can search for stocks in Yahoo Finance's database,
       which was great experience using Node, Express, React/Redux,
-      and other current web technologies. Afterwards, I created a
-      calculator for investors to analyze rental properties, and
-      this was mainly React+Redux with Node/Express for the server.
-      The calculator supports user authentication to save rental property
-      analyses, implemented with JWT and passport.
+      and other current web technologies.
     </p>
     <p>
-      Lately, my passion has brought me to C# and ASP.NET Core, where I
+      Once I had the basics down, I created a calculator for investors
+      to analyze rental properties, and this was mainly
+      React+Redux with Node/Express forthe server. The
+      calculator supports user authentication to save rental
+      property analyses, implemented with JWT and passport.
+    </p>
+    <p>
+      My passion had me dabbling in C# and ASP.NET Core, where I
       created a Fitness API to access a database of information about
-      weightlifting exercises. I am excited to improve my skills with ASP.NET
-      and server-side programming in the future.
+      weightlifting exercises. I am interested in learning more about
+      C# and server side programming in the future.
+    </p>
+    <p>
+      Most recently, I have been improving my JavaScript/TypeScript skills,
+      focusing a lot on testing, as well as working towards more meaningful
+      open-source contributions in the JS/TS community.
     </p>
   </div>
 );
