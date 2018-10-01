@@ -13,13 +13,16 @@ const Technologies = () => (
     </ul>
     <h3>JavaScript (ES6)</h3>
     <ul>
+      <li>TypeScript</li>
       <li>Node/Express</li>
-      <li>Mongoose/MongoDB</li>
+      <li>MongoDB</li>
       <li>React/Redux</li>
       <li>Webpack/Babel</li>
       <li>Mocha/Chai</li>
+      <li>Jest</li>
+      <li>Sinon</li>
+      <li>Enzyme</li>
       <li>HTML5/CSS3</li>
-      <li>Electron</li>
     </ul>
     <h3>C#</h3>
     <ul>
