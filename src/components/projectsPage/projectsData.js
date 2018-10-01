@@ -20,7 +20,7 @@ const projectsData = [
     'you to record your workouts and meals, and track your progress in ' +
     'various ways (progress photos, graphing body weight, ' +
     'graphing exercise weights, etc.) over time.',
-    technologiesUsed: 'Java, JUnit, Android Studio, SQLite',
+    technologiesUsed: 'Java, JUnit, SQLite',
     googlePlayLink: 'https://play.google.com/store/apps/details?' +
       'id=com.hgdev.fitnessapps.lifterlog&hl=en',
     image: lifterLogImage
@@ -33,8 +33,8 @@ const projectsData = [
     'investment, return on equity, and cash on cash return for years ' +
     'during your mortgage and after the property is paid off. It allows ' +
     'users to register and login to save their analyses for later.',
-    technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, HTML5/CSS3, ' +
-    'Node/Express, MongoDB/Mongoose, Passport, JWT, VS Code',
+    technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, ' +
+    'Express, MongoDB, Passport, JWT',
     gitHubLink: 'https://github.com/gregdardis/rental-property-calculator',
     deployedSiteLink: 'https://secure-plateau-58035.herokuapp.com/',
     image: rentalPropertyCalculatorImage
@@ -42,12 +42,11 @@ const projectsData = [
   {
     name: 'Fitness API',
     description: 'Fitness API is a web API for accessing data about workout ' +
-    'exercises. Exercises include the exercise name, it\'s main muscle ' +
+    'exercises. Exercises include the exercise name, its main muscle ' +
     'group, other muscle groups it works out, and the equipment required ' +
     'to perform the exercise. The API will return a JSON response ' +
     'containing an array of exercises meeting the specified criteria.',
-    technologiesUsed: 'ASP.NET Core, Entity Framework Core, SQL Server, ' +
-    'Visual Studio 2017',
+    technologiesUsed: 'ASP.NET Core, Entity Framework Core, SQL Server',
     gitHubLink: 'https://github.com/gregdardis/fitness-api',
     image: fitnessAPIImage
   },
@@ -56,8 +55,8 @@ const projectsData = [
     description: 'Stock Market Search is a web app that allows you to ' +
     'search for stocks (by symbol) in the yahoo finance stock database, and ' +
     'view financial information and metrics related to these stocks. ',
-    technologiesUsed: 'React/Redux, Webpack/Babel, Node/Express, ' +
-    'Mocha/Chai, HTML5/CSS3, VS Code',
+    technologiesUsed: 'React/Redux, Webpack/Babel, Express, ' +
+    'Jest, Sinon, Enzyme, Travis CI',
     gitHubLink: 'https://github.com/gregdardis/stock-market-info',
     image: stockMarketSearchImage
   },
@@ -69,7 +68,7 @@ const projectsData = [
     'deleting profiles. It utilizes SQLite to save information between uses. ' +
     'Note: this project is an extension of assignment 7, FacePamphlet, from ' +
     'Stanford\'s CS106A class.',
-    technologiesUsed: 'Java, Eclipse, SQLite',
+    technologiesUsed: 'Java, SQLite',
     gitHubLink: 'https://github.com/gregdardis/FacePamphlet-CS106A',
     image: facePamphletImage
   },
@@ -77,8 +76,7 @@ const projectsData = [
     name: 'Personal Website',
     description: 'This site, which is used to show both my portfolio and ' +
     'who I am. Bootstrapped using create-react-app. ',
-    technologiesUsed: 'React, Webpack/Babel, HTML5/CSS3, ' +
-    'VS Code',
+    technologiesUsed: 'React, Webpack/Babel',
     gitHubLink: 'https://github.com/gregdardis/personal-website',
     image: personalWebsiteImage
   }
