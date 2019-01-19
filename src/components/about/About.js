@@ -7,9 +7,8 @@ const About = () => (
     <h2>About Me</h2>
     <p>
       I am a recent graduate from the University of Alberta, graduated June 2018
-      with a BSc in Mathematics, minor in Chemistry.
-      <b> I am looking for an entry-level software engineering position in
-      Vancouver, BC.</b>
+      with a BSc in Mathematics, minor in Chemistry. I am currently employed by
+      Pleasant Solutions in Vancouver, B.C., since October, 2018.
     </p>
     <p>
       I began learning about software development in April of 2017,
@@ -36,13 +35,16 @@ const About = () => (
     <p>
       My passion had me dabbling in C# and ASP.NET Core, where I
       created a Fitness API to access a database of information about
-      weightlifting exercises. I am interested in learning more about
-      C# and server side programming in the future.
+      weightlifting exercises.
     </p>
     <p>
-      Most recently, I have been improving my JavaScript/TypeScript skills,
+      Afterwards, I worked on my JavaScript/TypeScript skills,
       focusing a lot on testing, as well as working towards more meaningful
       open-source contributions in the JS/TS community.
+    </p>
+    <p>
+      Day to day I work on C#, specifically ASP.NET MVC web applications,
+      and in my spare time continue to work on my JavaScript projects.
     </p>
   </div>
 );
