@@ -25,14 +25,18 @@ const Technologies = () => (
     <ul>
       <li>ASP.NET Core</li>
       <li>Entity Framework Core</li>
+      <li>nHibernate</li>
+      <li>ASP.NET MVC 5</li>
     </ul>
     <h3>General</h3>
     <ul>
       <li>Git</li>
       <li>Travis CI</li>
+      <li>TeamCity</li>
       <li>MongoDB</li>
       <li>SQL</li>
       <li>Heroku</li>
+      <li>Jira</li>
     </ul>
   </div>
 );
