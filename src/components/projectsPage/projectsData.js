@@ -36,7 +36,7 @@ const projectsData = [
     technologiesUsed: 'React/Redux, Webpack/Babel, Mocha/Chai, ' +
     'Express, MongoDB, Passport, JWT',
     gitHubLink: 'https://github.com/gregdardis/rental-property-calculator',
-    deployedSiteLink: 'https://secure-plateau-58035.herokuapp.com/',
+    deployedSiteLink: 'https://rental-property-calculator.herokuapp.com/',
     image: rentalPropertyCalculatorImage
   },
   {
