@@ -28,6 +28,7 @@ const Technologies = () => (
       <li>nHibernate</li>
       <li>ASP.NET MVC 5</li>
     </ul>
+    <h3>Python</h3>
     <h3>General</h3>
     <ul>
       <li>Git</li>
