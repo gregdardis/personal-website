@@ -71,6 +71,7 @@ const About = () => (
     <p>
       On evenings and weekends I continue to improve my computer science
       fundamentals, learn new technologies, and work on my personal projects.
+      My latest obsessions are databases and Python.
     </p>
   </div>
 );
