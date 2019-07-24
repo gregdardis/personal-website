@@ -24,54 +24,17 @@ const About = () => (
       beginning with Stanford's CS106A course (all materials are online), taught
       in Java. From there I co-created an Android fitness app called <a
         href={lifterLogUrl}>
-        Lifter Log
-      </a>
-      , then started taking a Coursera course to learn algorithms and data
-      structures.
-    </p>
-    <p>
-      To begin my web development journey I co-created a <a
-        href={stockMarketSearchUrl}>
-        web app
-      </a>
-      , where the user can search for stocks in Yahoo Finance's database.
-      This was great experience using Express, React/Redux,
-      and other current web technologies. I have since gone back
-      and added continuous integration using Travis CI. I also added
-      Jest coverage reports and got code coverage to 90%.
-    </p>
-    <p>
-      Once I had the basics down, I created a <a
-        href={rentalPropertyCalculatorDeployedUrl}>
-        calculator for investors to analyze rental properties
-      </a>
-      , and this was mainly React+Redux with Express
-      for the server. The calculator supports user authentication
-      to save rental property analyses, implemented with JWT
-      and passport. I am still working on this project fairly often
-      as of May 05, 2019. <a
-        href={rentalPropertyCalculatorGithubUrl}>
-        Here is the repository.
+        Lifter Log.
       </a>
     </p>
     <p>
-      My passion had me dabbling in C# and ASP.NET Core, where I
-      created a Fitness API to access a database of information about
-      weightlifting exercises.
-    </p>
-    <p>
-      Afterwards, I worked on my JavaScript/TypeScript skills,
-      focusing a lot on testing, as well as working towards more meaningful
-      open-source contributions in the JS/TS community.
-    </p>
-    <p>
-      Day to day I am a full stack developer, mainly using a C# stack, but
-      I also write a fair bit of JavaScript and CSS on the front end.
+      From there I made multiple personal projects both for fun and to practice
+      my skills (see the projects page for details).
     </p>
     <p>
       On evenings and weekends I continue to improve my computer science
       fundamentals, learn new technologies, and work on my personal projects.
-      My latest obsessions are databases and Python.
+      My latest obsessions are databases, Python and Docker.
     </p>
   </div>
 );
