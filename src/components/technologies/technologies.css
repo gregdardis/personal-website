@@ -1,3 +1,8 @@
+.technologies h3 {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
 .technologies {
   padding: 20px;
 }
@@ -6,6 +11,16 @@
   color: #333333;
 }
 
+.technologies ul {
+  margin: 5px 0;
+  padding: 0 30px;
+}
+
 .technologies li {
   margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.technologies-name {
+  font-size: 16px;
 }
