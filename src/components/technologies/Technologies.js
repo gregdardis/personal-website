@@ -8,6 +8,9 @@ const Technologies = () => (
     <h3>Python</h3>
     <ul>
       <li>Flask</li>
+      <li>Flask-SQLAlchemy</li>
+      <li>unittest</li>
+      <li>Gunicorn</li>
     </ul>
     <h3>JavaScript (ES6)</h3>
     <ul>
@@ -26,7 +29,6 @@ const Technologies = () => (
       <li>Docker</li>
       <li>SQL</li>
       <li>Nginx</li>
-      <li>Gunicorn</li>
       <li>AWS (Amazon EC2)</li>
       <li>Bootstrap</li>
       <li>Travis CI</li>
