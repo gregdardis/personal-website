@@ -16,11 +16,13 @@ import clipViewerImage from
 const projectsData = [
   {
     name: 'Clip Viewer',
-    description: "Clip Viewer is a web app that integrates with Twitch TV's API to bring " + 
-    "live stream video clips from all of your favorite Twitch streamers to one place. " +
-    "The app allows you to follow streamers of your choice, set filters for which clips " +
-    "to show from the streamers you follow, and add clips to your favorites for viewing later.",
-    technologiesUsed: 'Python, Flask, Flask-SQLAlchemy, Docker, Nginx, Gunicorn, Bootstrap, JavaScript',
+    description: 'Clip Viewer is a web app that integrates with Twitch ' +
+    'TV\'s API to bring live stream video clips from all of your favorite  ' +
+    'Twitch streamers to one place. The app allows you to follow streamers ' +
+    'to show from the of your choice, set filters for which clips ' +
+    'streamers you follow, and add clips to your favorites for viewing later.',
+    technologiesUsed: 'Python, Flask, Flask-SQLAlchemy, Docker, Nginx, ' +
+    'Gunicorn, Bootstrap, JavaScript',
     deployedSiteLink: 'http://www.clipviewer.com',
     image: clipViewerImage
   },
