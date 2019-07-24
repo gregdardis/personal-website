@@ -5,14 +5,12 @@ import './technologies.css';
 const Technologies = () => (
   <div className='technologies'>
     <h2>Technologies</h2>
-    <h3>Java</h3>
+    <h3>Python</h3>
     <ul>
-      <li>Android</li>
-      <li>JUnit</li>
+      <li>Flask</li>
     </ul>
     <h3>JavaScript (ES6)</h3>
     <ul>
-      <li>TypeScript</li>
       <li>Express</li>
       <li>React/Redux</li>
       <li>Webpack/Babel</li>
@@ -20,6 +18,23 @@ const Technologies = () => (
       <li>Jest</li>
       <li>Sinon</li>
       <li>Enzyme</li>
+      <li>JQuery</li>
+    </ul>
+    <h3>General</h3>
+    <ul>
+      <li>Git</li>
+      <li>Docker</li>
+      <li>SQL</li>
+      <li>Nginx</li>
+      <li>Gunicorn</li>
+      <li>AWS (Amazon EC2)</li>
+      <li>Bootstrap</li>
+      <li>Travis CI</li>
+      <li>TeamCity</li>
+      <li>Octopus</li>
+      <li>MongoDB</li>
+      <li>Heroku</li>
+      <li>Jira</li>
     </ul>
     <h3>C#</h3>
     <ul>
@@ -28,16 +43,10 @@ const Technologies = () => (
       <li>nHibernate</li>
       <li>ASP.NET MVC 5</li>
     </ul>
-    <h3>Python</h3>
-    <h3>General</h3>
+    <h3>Java</h3>
     <ul>
-      <li>Git</li>
-      <li>Travis CI</li>
-      <li>TeamCity</li>
-      <li>MongoDB</li>
-      <li>SQL</li>
-      <li>Heroku</li>
-      <li>Jira</li>
+      <li>Android</li>
+      <li>JUnit</li>
     </ul>
   </div>
 );

@@ -12,8 +12,10 @@ const ProjectInfo = ({
     { projectData.googlePlayLink
       ? <a href={ projectData.googlePlayLink }
         target='_blank'>Google Play Store</a>
-      : <a href={ projectData.gitHubLink }
-        target='_blank'>GitHub</a> }
+      : projectData.gitHubLink
+      ? <a href={ projectData.gitHubLink }
+        target='_blank'>GitHub</a>
+      : null }
     <p>Technologies: { projectData.technologiesUsed }</p>
     { projectData.deployedSiteLink
       ? <a href={ projectData.deployedSiteLink }
