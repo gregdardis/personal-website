@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resumePDF from '../../assets/Dardis_Greg_Resume_2018.pdf';
+import resumePDF from '../../assets/Dardis_Greg_Resume_2019.pdf';
 import './contact.css';
 
 const Contact = () => (
