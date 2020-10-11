@@ -1,10 +1,10 @@
 import React from 'react';
 
-import resumePDF from '../../assets/Dardis_Greg_Resume_2019.pdf';
+import resumePDF from '../../assets/Dardis_Greg_Resume_2020.pdf';
 import './contact.css';
 
 const Contact = () => (
-  <div className='contact'>
+  <div className='contact description-box'>
     <h2>Contact</h2>
     <ul>
       <li>dardis.greg@gmail.com</li>
