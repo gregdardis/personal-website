@@ -3,3 +3,7 @@
   display: block;
   overflow: auto;
 }
+
+.description-box {
+  border-radius: 8px;
+}

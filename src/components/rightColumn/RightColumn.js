@@ -4,7 +4,7 @@ import './rightColumn.css';
 import Technologies from '../technologies';
 
 const RightColumn = () => (
-  <div className='rightColumn'>
+  <div className='rightColumn description-box'>
     <Technologies />
   </div>
 );

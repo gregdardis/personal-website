@@ -10,6 +10,11 @@ const ProjectInfo = ({
     <h2>{ projectData.name }</h2>
     <p>{ projectData.description }</p>
     {
+      projectData.description2
+      ? <p>{ projectData.description2 }</p>
+      : null
+    }
+    {
       projectData.googlePlayLink
         ? <a href={ projectData.googlePlayLink } target='_blank'>
             Google Play Store
