@@ -23,7 +23,7 @@ const projectsData = [
     'streamers you follow, and add clips to your favorites for viewing later. ',
     description2: 'Note: Site taken down due to AWS costs.',
     technologiesUsed: 'Python, Flask, Flask-SQLAlchemy, PostgreSQL, Docker, Nginx, ' +
-    'Gunicorn, Bootstrap, JavaScript, AWS EC2, ECS, ELB, ECR, S3, RDS, TLS encryption',
+    'Gunicorn, Bootstrap, JavaScript, AWS EC2, ECS, ELB, ECR, S3, RDS, Route53, TLS encryption',
     image: clipViewerImage
   },
   {
